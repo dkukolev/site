@@ -1,0 +1,649 @@
+@import url("../shrifti.css");
+* {
+  padding: 0;
+  margin: auto 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+    background: #252237;
+}
+body header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fonheader.png");
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  body header nav {
+    padding: 40px;
+  }
+  body header nav h1 {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  body header .concept {
+    margin: 25px 60px;
+    padding: 60px 105px;
+  }
+  body header .concept h2 {
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 65px;
+    letter-spacing: -2.5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  body header .concept p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+  }
+  body header .concept .btn {
+    background: #e2521d;
+    border-radius: 10px;
+    padding: 20px 80px;
+    margin-top: 70px;
+    cursor: pointer;
+    border: none;
+    font-family: "Gotham Pro", sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: all 0.5s;
+  }
+  body header .concept .btn:hover {
+    box-shadow: 0px 0px 40px rgba(202, 0, 80, 0.51);
+    background: #cf4918;
+    transform: scale(1.2);
+  }
+  body #ochemkurs {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #ochemkurs .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #ochemkurs .text .left {
+    /* padding: 0 30px; */
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* body #ochemkurs .text .left img { */
+    /* margin-left: 30px; */
+  /* } */
+  body #ochemkurs .text .right {
+    width: 50%;
+    /* padding: 0 0 0 30px; */
+    /* margin: 0 0 0 30px; */
+  }
+  body #ochemkurs .text .right h2 {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #ffffff;
+    margin-bottom: 110px;
+  }
+  body #ochemkurs .text .right h4 {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    color: #e2521d;
+    margin-bottom: 40px;
+  }
+  body #ochemkurs .text .right p {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #8997ab;
+  }
+  body #nauch {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  body #nauch h3 {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 80px;
+  }
+  body #nauch .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 150px;
+  }
+  body #nauch .container .card {
+    width: 40%;
+    padding: 15px 25px;
+    margin: 20px 5px;
+    text-align: start;
+  }
+  body #nauch .container .card .box {
+    width: 84px;
+    height: 84px;
+    border-radius: 100%;
+    border: 2px solid #6a5d6a;
+    margin-bottom: 25px;
+    border-left-color: #cf4918;
+    border-top-color: #cf4918;
+    border-left: 1px solid #cf4918;
+    border-top: 1px solid #cf4918;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #nauch .container .card .box:hover {
+    box-shadow: 0px 0px 35px #cf4918;
+  }
+  body #nauch .container .card p {
+    font-family: "Gotham Pro", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  body #programma {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #programma .contentTab {
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    margin: 3rem 6rem 0 6rem;
+    padding: 0 3rem 0 3rem;
+  }
+  body #programma .contentTab h2 {
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #ffffff;
+    text-align: center;
+    margin: 30px 0;
+    padding-bottom: 40px;
+  }
+
+  body #programma .contentTab .tab {
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    background-color: #0E1B28;
+    padding: 20px;
+    
+  }
+  body #programma .contentTab .tab1 {
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    width: 100%;
+    background-color: #0E1B28;
+    padding: 20px;
+    margin-top: 30px;
+    
+  }
+  body #programma .contentTab .tab1:hover {
+    background-color: #cf4918;
+  }
+  
+  body #programma .contentTab .tab.active {
+    background-color: #cf4918;
+  }
+  body #programma .contentTab .tab:hover {
+    background-color: #cf4918;
+  }
+  body #programma .contentTab .tab-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 48px 0;
+  }
+  body #programma .contentTab .tab-content ul li {
+    list-style: none;
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #8997ab;
+    text-align: start;
+  }
+  body #dlya {
+    margin-top: 200px;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/fon.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+  body #dlya h2 {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #ffffff;
+  }
+  body #dlya .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body #dlya .display .left {
+    width: 50%;
+  }
+  body #dlya .display .right {
+    margin: 64px 32px;
+    padding-top: 88px;
+    width: 50%;
+  }
+  body #dlya .display .right .cont h3 {
+    font-family: "Gotham Pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 52px;
+    color: #e2521d;
+    margin-bottom: 48px;
+  }
+  body #dlya .display .right .cont p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #8997ab;
+  }
+  body #prohodit {
+    width: 100%;
+    height: 100%;
+    margin: 48px;
+  }
+  body #prohodit h3 {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+    color: #ffffff;
+  }
+  body #prohodit .family {
+    padding: 6rem 10rem;
+  }
+  body #prohodit .family .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  body #prohodit .family .parent img {
+    width: 67px;
+    height: 71px;
+    cursor: pointer;
+  }
+  body #prohodit .family .parent h4 {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 2rem 0;
+  }
+  body #prohodit .family .parent p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #8997ab;
+  }
+  body #prohodit .family .parent .div1 {
+    grid-area: 1/1/3/3;
+  }
+  body #prohodit .family .parent .div2 {
+    grid-area: 1/4/3/6;
+  }
+  body #prohodit .family .parent .div3 {
+    grid-area: 4/1/6/3;
+  }
+  body #prohodit .family .parent .div4 {
+    grid-area: 4/4/6/6;
+  }
+  body #zapis {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 3rem;
+    margin: 2rem 0;
+  }
+  body #zapis .btn {
+    width: 1144px;
+    height: 177px;
+    background: #e2521d;
+    border: 1px solid #cf4918;
+    color: #fff;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+  }
+  body #zapis .btn:hover {
+    box-shadow: 0px 0px 35px #cf4918;
+  }
+  body #zapis .btn h4 {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+  body #zapis .btn span {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  body #zapis .content .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
+  body #zapis .content .div1 {
+    grid-area: 2/2/3/3;
+  }
+  body #zapis .content .div2 {
+    grid-area: 2/3/3/4;
+  }
+  body #zapis .content .div3 {
+    grid-area: 2/4/3/5;
+  }
+  body #zapis .content .divs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+  }
+  body #zapis .content .divs img {
+    margin-right: 12px;
+  }
+  body #zapis .content .divs p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 34px;
+    color: #ffffff;
+  }
+  body #zapis h4 {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+    margin: 25px 0;
+  }
+  body #zapis h4 span {
+    color: #fa4682;
+  }
+  body #zapis h4 b {
+    color: #636171;
+  }
+  body #zapis p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: center;
+    color: #ffffff;
+  }
+  body #zapis form input {
+    width: 458px;
+    height: 60px;
+    padding: 8px 12px;
+    margin: 4rem 0 2rem 0;
+    background: #393c57;
+    border: 1px solid #e2521d;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    color: #fff;
+  }
+  body #zapis form .btn {
+    width: 458px;
+    height: 60px;
+    background: #e2521d;
+    border-radius: 8px;
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+  }
+  body #zapis .inputCheckBoxP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  body #zapis .inputCheckBoxP input {
+    width: 21px;
+    height: 21px;
+    border: 2px solid #ffffff !important;
+    background-color: #45e5c8 !important;
+    margin-right: 12px;
+  }
+  body #zapis .inputCheckBoxP p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #fff;
+    text-align: start;
+  }
+  body #zapis .inputCheckBoxP p span {
+    color: #a8a7b0;
+  }
+  body #footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  body #footer .row {
+    margin: 2.5rem 2rem 0 2em;
+    padding: 2.5rem 2rem 0 2rem;
+  }
+  body #footer .row ul li {
+    list-style: none;
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+  }
+  body #footer .row ul li a {
+    text-decoration: none;
+    color: #acaab3;
+  }
+  body #footer .platej p {
+    font-family: "Gotham pro";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    padding: 12px 0;
+  }
+  body #footer .platej a {
+    text-decoration: none;
+    margin: 5px 6px;
+  }
+  body .modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+  }
+  body .modal-bg .modal {
+    padding: 2rem;
+    margin: 4rem;
+    position: relative;
+    font-family: "Montserrat";
+    background-color: #fff;
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  body .modal-bg .modal h2 {
+    margin-bottom: 14px;
+  }
+  body .modal-bg .modal input {
+    background: #fafafa;
+    font-size: 1em;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 18px 1rem;
+    border: none;
+    border-bottom: 2px solid #e9e9e9;
+    color: #666;
+    transition: border-color 0.3s;
+  }
+  body .modal-bg .modal input:focus {
+    border-bottom: 2px solid #c0c0c0;
+    outline: none;
+  }
+  body .modal-bg .modal #vaild-pass {
+    color: red;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  body .modal-bg .modal #showimg {
+    position: absolute;
+    height: 20px;
+    top: 160px;
+    right: 50px;
+    cursor: pointer;
+  }
+  body .modal-bg .modal .btn {
+    display: block;
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    font-family: "Montserrat";
+    cursor: pointer;
+  }
+  body .modal-bg .modal .close-div {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    border: 1px solid #111;
+  }
+  body .modal-bg .paragraph {
+    text-align: center;
+    margin: 13px 0;
+  }
+  body .modal-bg .paragraph a {
+    color: rgb(92, 91, 91);
+    outline: 0;
+    text-decoration: none;
+  }
+  body .modal-bg .paragraph a:focus, body .modal-bg .paragraph a:hover {
+    text-decoration: underline;
+  }
+  body .modal-bg .modal-close {
+    position: absolute;
+    top: 8px;
+    right: 10.5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  body .bg-active {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999;
+  }
+  
